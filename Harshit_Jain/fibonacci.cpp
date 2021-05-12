@@ -3,17 +3,17 @@ using namespace std;
 
 int main()
 {
-    int n;                                          //No. till which Fibonacci nos. to be printed
-    cin >> n;
+    int number;                                          //No. till which Fibonacci nos. to be printed
+    cin >> number;
 
-    if(n>0)
+    if(number>0)
     {
 
     
-        int arr[n]={0};                                //Keeping the first no. of series fixed as 0
+        int arr[number]={0};                                //Keeping the first no. of series fixed as 0
         cout<<arr[0]<<endl;
     
-            for(int count=1; count<n; count++)
+            for(int count=1; count<number; count++)
             {   
                 if(count==1)
                 {
