@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+int main(int argc, char **argv){
+    int times,number,factor;
+    cin >> times;
+    for (int idx = 0; idx < times; idx++){
+        cin >> number;
+        factor = 2;
+        while (factor * factor <= number){
+            if (number % factor == 0){
+                break;
+            }
+            factor++;
+        }
+
+        if (factor * factor > number){
+            cout << ("prime") << endl;
+        }
+        else{
+            cout << ("not prime") << endl;
+        }
+    }
+    
+}
