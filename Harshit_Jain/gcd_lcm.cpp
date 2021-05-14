@@ -1,12 +1,15 @@
 #include <iostream>
 using namespace std;
+
+typedef int numbers;
+typedef int tempNumbers;
 int main()
 {
-    int num1, num2;
+    numbers num1, num2;
     cin >> num1 >> num2;
 
-    int n1=num1;                //storing nos. in temporary variables
-    int n2=num2;
+    tempNumbers n1=num1;                //storing nos. in temporary variables
+    tempNumbers n2=num2;
     
     while(n1!=n2)
     {
